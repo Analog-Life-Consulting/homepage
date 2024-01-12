@@ -1,8 +1,8 @@
 baseURL       = "http://example.org/"
 languageCode  = "en-us"
-title         = "Roxo | Creative Design Agency"
+title         = "Analog Life Consulting | Durham NC based Electronics Design Consultancy"
 theme         = "roxo-hugo"
-summarylength = 25
+summarylength = 30
 
 # Site Menus
 [menu]
@@ -31,14 +31,14 @@ summarylength = 25
 # Site Params
 [params]
   logo = "images/logo-alc.png"
-  logo_footer = "images/footer-alc.png"
+  logo_footer = "images/footer-alc-150-light.png"
   favicon_icon = "images/favicon.ico"
   favicon_shortcut_icon = "images/favicon.png"
   custom_stylesheets = []   # [ "scss/my_1.scss", "scss/my_2.scss" ]
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
-  author = "StaticMania"
+  description = "Analog Life Consulting | Durham NC based Electronics Design Consultancy"
+  author = "Chris Gammell"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
@@ -70,7 +70,7 @@ summarylength = 25
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/hero-background.jpg"
+    background_image      = "images/backgrounds/hero-background-alc.jpg"
     heading               = "We bring together the digital and analog worlds"
     tagline               = "ELECTRONIC PRODUCT DESIGN, EVOLVED"
     primary_button        = "See Our Past Work"
@@ -95,7 +95,7 @@ summarylength = 25
     title               = "LET’S WORK TOGETHER"
     primary_button      = "Submit Query"
     primary_button_url  = "contact"
-    secondary_button    = "Not Convinced"
+    secondary_button    = "View More Works"
     secondary_button_url = "portfolio"
 
   [params.footer]
@@ -103,9 +103,9 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
+      address = "201 W Main St<br>Durham, NC 27701"
+      phone   = "317-426-6355"
+      email   = "web@analoglife.co"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
@@ -125,20 +125,20 @@ summarylength = 25
       [params.footer.social]
         title   = "Social Media"
         [[params.footer.social.link]]
-          name = "Medium"
+          name = "Mastodon"
           url  = "#"
         [[params.footer.social.link]]
-          name = "Behance"
+          name = "LinkedIn"
           url  = "#"
         [[params.footer.social.link]]
-          name = "Dribbble"
+          name = "Hackster"
           url  = "#"
         [[params.footer.social.link]]
           name = "Instagram"
           url  = "#"
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = "We help companies:"
+        description = "Develop new products<br>Bring exciting products to market<br>Serve your end customer"
       [params.footer.back_to_top]
-        description = "I want to <br> visit again"
+        description = "I want to <br> read again"

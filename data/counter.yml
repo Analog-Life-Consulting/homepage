@@ -1,14 +1,14 @@
 enable : true
-heading : "THE PROOF IS IN THE PUDDING!"
+heading : "OUR CLIENTS LOVE US!"
 counter_item: 
   - title: "Happy Clients"
-    number: "250"
+    number: "15"
 
-  - title: "Projects Completed"
+  - title: "PCBs Completed"
+    number: "40"
+
+  - title: "Digikey Orders"
+    number: "70"
+
+  - title: "Design Sessions"
     number: "100"
-
-  - title: "Cups of coffee"
-    number: "350"
-
-  - title: "Telephone Talks"
-    number: "775"

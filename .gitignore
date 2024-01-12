@@ -11,4 +11,5 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
-.hugo_build.lock/*
+.hugo_build.lock
+*.xcf
